@@ -252,7 +252,7 @@ This project is for learning and experimentation—not for real-world NLP deploy
 
 ## 👤 Author
 
-Built as a research showcase project for **Unsupervised Learning of Large Language Models** (IIT Jammu RiSE UP 2026).
+Ashish
 
 ---
 
