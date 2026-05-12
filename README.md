@@ -1,4 +1,4 @@
-# 🧠 MiniLLM: Unsupervised Learning of Language Models from Scratch
+# 🧠 Mini Language Models: Unsupervised Learning of Language Models from Scratch
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python" />
@@ -16,7 +16,7 @@
 
 ## 📌 Project Overview
 
-**MiniLLM** is an educational, end-to-end implementation of three language modeling approaches, all trained using **self-supervised (unsupervised) learning** on raw text — no labels required.
+**Mini Language Models** is an educational, end-to-end implementation of three language modeling approaches, all trained using **self-supervised (unsupervised) learning** on raw text — no labels required.
 
 | Model | Architecture | Context | Speed |
 |-------|-------------|---------|-------|
@@ -35,7 +35,7 @@ This is the same principle that powers GPT-4, LLaMA, Claude, and all modern LLMs
 ## 🗂️ Project Structure
 
 ```
-mini-llm/
+mini-lm/
 │
 ├── data/
 │   └── sample.txt              ← Training corpus
