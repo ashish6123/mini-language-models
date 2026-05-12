@@ -7,6 +7,16 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
 </p>
 
+---
+## 🌐 Live Demo
+
+👉 [Check out the live Streamlit app here!](https://mini-llm.streamlit.app/) 🚀
+
+<!-- Replace the image URL below with your actual screenshot URL -->
+[![Streamlit App Screenshot](https://raw.githubusercontent.com/ashish6123/mini-language-models/main/assets/app-screenshot.png)](https://mini-llm.streamlit.app/)
+
+---
+
 <p align="center">
   <b>Three language models — N-gram, LSTM, Transformer — trained from scratch using unsupervised learning.</b><br>
   One command to train. One command to launch the UI.
@@ -16,7 +26,7 @@
 
 ## 📌 Project Overview
 
-**Mini Language Models (Mini LM)** is an educational, end-to-end implementation of three language modeling approaches, all trained using **self-supervised (unsupervised) learning** on raw text — no labels required.
+**Mini Language Models (Mini LM)** is an educational, end-to-end implementation of three language modeling approaches, all trained using **self-supervised (unsupervised) learning** on raw text —...
 
 | Model | Architecture | Context | Speed |
 |-------|-------------|---------|-------|
@@ -193,9 +203,14 @@ python generate.py --model ngram --prompt "the model" --words 20 --temperature 0
 
 ## 📸 Screenshots
 
-> *[Screenshot: Streamlit UI with transformer output]*
-> *[Screenshot: Training logs in terminal]*
-> *[Screenshot: Model architecture sidebar]*
+<!--
+To display live app screenshots, upload your images to the repo (suggested path: assets/app-screenshot.png) or an image host, then update the markdown below with actual paths/links.
+-->
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ashish6123/mini-language-models/main/assets/app-screenshot.png" alt="Streamlit App Screenshot" width="700">
+  <!-- Add more screenshots as needed -->
+</p>
 
 ---
 
