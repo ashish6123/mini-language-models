@@ -1,4 +1,4 @@
-# 🧠 Mini Language Models: Unsupervised Learning of Language Models from Scratch
+# 🧠 Mini Language Models (Mini LM): Unsupervised Learning of Language Models from Scratch
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python" />
@@ -16,7 +16,7 @@
 
 ## 📌 Project Overview
 
-**Mini Language Models** is an educational, end-to-end implementation of three language modeling approaches, all trained using **self-supervised (unsupervised) learning** on raw text — no labels required.
+**Mini Language Models (Mini LM)** is an educational, end-to-end implementation of three language modeling approaches, all trained using **self-supervised (unsupervised) learning** on raw text — no labels required.
 
 | Model | Architecture | Context | Speed |
 |-------|-------------|---------|-------|
@@ -207,6 +207,23 @@ python generate.py --model ngram --prompt "the model" --words 20 --temperature 0
 - **Positional Encoding**: Injecting order into attention-based models
 - **Temperature Sampling**: Controlling randomness in generation
 - **Gradient Clipping**: Preventing exploding gradients in deep networks
+
+---
+
+## ⚠️ Limitations
+
+While Mini Language Models (Mini LM) demonstrates the core ideas behind modern language models in an accessible, educational way, there are important limitations to be aware of:
+
+- **Small-scale Only**: Designed for short sequences and small datasets. Not suitable for large-scale or production use.
+- **No Large-Scale Training**: Does not support multi-GPU, distributed, or mixed-precision training; not optimized for massive corpora.
+- **Simple Tokenizer**: Uses a word-level tokenizer—a real LLM would use subword/BPE/tokenization with a much larger vocabulary.
+- **Minimal Preprocessing**: No advanced data cleaning, deduplication, or augmentation.
+- **Limited Evaluation**: Does not include automated benchmarks like perplexity, BLEU, or real-world downstream tasks.
+- **No Advanced Regularization**: Missing techniques like dropout scheduling, weight decay, or data augmentation common in SOTA LLMs.
+- **Streamlit UI is Minimal**: The web UI is basic, for demonstration only, with no multi-user or cloud deployment support.
+- **Not a HuggingFace Replacement**: For full-featured model training and use, consider frameworks like HuggingFace Transformers.
+
+This project is for learning and experimentation—not for real-world NLP deployments or research-scale results.
 
 ---
 
